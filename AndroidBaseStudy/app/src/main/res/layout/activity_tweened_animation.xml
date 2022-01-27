@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <Button
+    android:id="@+id/btnAlpha"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="alpha"/>
+
+  <Button
+    android:id="@+id/btnRotate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/btnAlpha"
+    android:text="rotate"/>
+
+  <Button
+    android:id="@+id/btnScale"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/btnRotate"
+    android:text="scale"/>
+
+  <Button
+    android:id="@+id/btnTranslate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/btnScale"
+    android:text="translate"/>
+
+  <ImageView
+    android:id="@+id/imageView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:adjustViewBounds="true"
+    android:src="@drawable/ping_avatar"/>
+</RelativeLayout>
