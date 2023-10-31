@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+      android:id="@+id/btnLoadImageFromNetwork"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="LoadImageFromNetwork" />
+
+    <Button
+      android:id="@+id/btnRequestOperation"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="RequestOperation" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+      android:id="@+id/btnTransition"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Transition" />
+
+    <Button
+      android:id="@+id/btnTransform"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Transform" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+      android:id="@+id/btnGlideApp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="GlideApp" />
+
+
+    <Button
+      android:id="@+id/btnGlideExtension"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="GlideExtension" />
+  </LinearLayout>
+
+
+  <ImageView
+    android:id="@+id/imageView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <Button
+    android:id="@+id/btnRoomInsert"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RoomInsert" />
+
+  <Button
+    android:id="@+id/btnRoomDelete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RoomDelete" />
+
+
+  <Button
+    android:id="@+id/btnRoomDeleteAll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RoomDeleteAll" />
+
+  <Button
+    android:id="@+id/btnRoomUpdate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RoomUpdate" />
+
+  <Button
+    android:id="@+id/btnRoomSelect"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RoomSelect" />
+
+</LinearLayout>

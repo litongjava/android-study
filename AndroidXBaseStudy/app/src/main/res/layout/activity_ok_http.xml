@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+      android:id="@+id/btnGetSyncRequest"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Get同步请求" />
+
+    <Button
+      android:id="@+id/btnGetAsyncRequest"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Get异步请求" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+      android:id="@+id/btnPostSyncRequest"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Post同步请求" />
+
+    <Button
+      android:id="@+id/btnPostAsyncRequest"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Post异步请求" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+      android:id="@+id/btnInterceptor"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="拦截器" />
+
+    <Button
+      android:id="@+id/btnCacheAndCookie"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="缓存和Cookie" />
+  </LinearLayout>
+
+  <TextView
+    android:id="@+id/textView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>

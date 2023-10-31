@@ -17,6 +17,25 @@ public class ActivityModel {
     activityNameList.add("GotoSourceActvity");
     activityNameList.add("StartServiceActivity");
     activityNameList.add("SendBroadcastActivity");
+    activityNameList.add("GlideImageViewActivity");
+    activityNameList.add("DynamicRequestPermissionActivity");
+    activityNameList.add("OkHttpActivity");
+    activityNameList.add("RetrofitActivity");
+    activityNameList.add("RoomActivity");
+
+
+    //activityNameList.add("RxJavaActivity");
+    //activityNameList.add("AcpActivity");
+    //activityNameList.add("AndroidPathActivity");
+//    activityNameList.add("SharedPreferenceActivity");
+//    activityNameList.add("AutoLoginActivity");
+//    activityNameList.add("RadioButtonActivity");
+//    activityNameList.add("TakePhotoUploadActivity");
+//    activityNameList.add("OnGlobalLayoutListenerActivity");
+//    activityNameList.add("LocationServiceActivity");
+//    activityNameList.add("SqliteCurdActivity");
+//    activityNameList.add("RoomActivity");
+    activityNameList.add("MediaActivity");
     return activityNameList;
   }
 }

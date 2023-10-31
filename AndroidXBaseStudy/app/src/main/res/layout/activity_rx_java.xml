@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".activity.RxJavaActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+      android:id="@+id/btnDownloadImage"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="下载图片"/>
+    <Button
+      android:id="@+id/btnDownloadImageByRxJava"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="RxJava下载图片"/>
+
+    <Button
+      android:id="@+id/btnPrintLog"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="打印日志"/>
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+      android:id="@+id/btnRxJavaLogin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="RxJava登录"/>
+
+  </LinearLayout>
+
+  <ImageView
+    android:id="@+id/imageView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</LinearLayout>
